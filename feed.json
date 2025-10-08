@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Prueba",
+    "description": "",
+    "home_page_url": "https://peterlelis.github.io/2asirAFH2526/Trabajos",
+    "feed_url": "https://peterlelis.github.io/2asirAFH2526/Trabajos/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Peter"
+    },
+    "items": [
+    ]
+}
