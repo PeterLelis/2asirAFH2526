@@ -1,0 +1,320 @@
+<!-- Salve este conteúdo como index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juatuba - A Cidade da Cerveja | Minas Gerais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Juatuba<span>.mg</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#attractions" class="nav-link">Atrações</a></li>
+                <li><a href="#economy" class="nav-link">Economia</a></li>
+                <li><a href="#events" class="nav-link">Eventos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Juatuba</h1>
+            <p class="hero-subtitle">A Cidade da Cerveja</p>
+            <p class="hero-description">Descubra as belezas naturais, tradições e oportunidades de Juatuba, município da Região Metropolitana de Belo Horizonte</p>
+            <button class="cta-button" onclick="scrollToSection('about')">
+                Explore a Cidade <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>30.716</h3>
+                <p>Habitantes</p>
+            </div>
+            <div class="stat">
+                <h3>97km²</h3>
+                <p>Área Total</p>
+            </div>
+            <div class="stat">
+                <h3>R$ 51.7k</h3>
+                <p>PIB per capita</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Juatuba</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>História e Origem</h3>
+                    <p>O povoado de Juatuba iniciou-se em torno da estação ferroviária da antiga Rede Mineira de Viação. O nome tem origem indígena e significa "Sítio dos Juás", devido à abundância deste fruto na região.</p>
+                    <h3>Localização Estratégica</h3>
+                    <p>Pertencente à Região Metropolitana de Belo Horizonte, Juatuba destaca-se por sua localização privilegiada, oferecendo proximidade com a capital mineira e qualidade de vida única.</p>
+                    <h3>Características Demográficas</h3>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <i class="fas fa-users"></i>
+                            <h4>População</h4>
+                            <p>30.716 habitantes (Censo 2022)</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map"></i>
+                            <h4>Densidade</h4>
+                            <p>316,6 hab/km²</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-home"></i>
+                            <h4>Moradores</h4>
+                            <p>2,87 por residência</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-mountain"></i>
+                        <p>Serra do Elefante</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Principais Atrações</h2>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Serra do Elefante</h3>
+                    <p>Principal cartão postal da cidade, oferece trilhas aventureiras e vistas panorâmicas incríveis.</p>
+                </div>
+                <div class="attraction-card">
+                    <div class="card-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Cachoeiras e Lagos</h3>
+                    <p>Belezas naturais com cachoeiras cristalinas e lagos ideais para relaxamento e lazer.</p>
+                </div>
+                <div class="attraction-card">
+                    <div class="card-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>Haras Porto Rico e Zuninga</h3>
+                    <p>Tradicionais haras que preservam a cultura equestre da região.</p>
+                </div>
+                <div class="attraction-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Trilhas Ecológicas</h3>
+                    <p>Diversos percursos para caminhadas e contato com a natureza preservada.</p>
+                </div>
+                <div class="attraction-card">
+                    <div class="card-icon">
+                        <i class="fas fa-swimmer"></i>
+                    </div>
+                    <h3>CBL Wake Park</h3>
+                    <p>Parque aquático moderno para esportes aquáticos e diversão em família.</p>
+                </div>
+                <div class="attraction-card">
+                    <div class="card-icon">
+                        <i class="fas fa-monument"></i>
+                    </div>
+                    <h3>Praça dos Três Poderes</h3>
+                    <p>Centro da vida cultural da cidade, com feira livre aos sábados e eventos especiais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Economy Section -->
+    <section id="economy" class="section">
+        <div class="container">
+            <h2 class="section-title">Economia e Desenvolvimento</h2>
+            <div class="economy-content">
+                <div class="economy-text">
+                    <h3>Vocação Industrial</h3>
+                    <p>Juatuba destaca-se principalmente por sua vocação industrial, sendo conhecida como a "Cidade da Cerveja" devido à presença da fábrica da Ambev, uma das maiores empresas de bebidas do mundo.</p>
+                    <h3>Diversidade Econômica</h3>
+                    <p>A economia local é diversificada, com destaque para os setores de metalurgia, alimentos e serviços, contribuindo para um PIB de R$ 1,4 bilhão.</p>
+                </div>
+                <div class="economy-stats">
+                    <div class="stat-card">
+                        <h3>R$ 1,4 bi</h3>
+                        <p>PIB Total</p>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>48,4%</h3>
+                        <p>Indústria</p>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 48%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>36,8%</h3>
+                        <p>Serviços</p>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 37%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>9,2k</h3>
+                        <p>Empregos Formais</p>
+                        <div class="stat-bar">
+                            <div class="stat-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Eventos e Festividades</h2>
+            <div class="events-timeline">
+                <div class="event-item">
+                    <div class="event-date">Janeiro</div>
+                    <div class="event-content">
+                        <h3>Festa de São Sebastião</h3>
+                        <p>Tradicional celebração religiosa no dia 20 de janeiro.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">Abril</div>
+                    <div class="event-content">
+                        <h3>Festa de Aniversário da Cidade</h3>
+                        <p>Comemoração do aniversário de Juatuba no dia 27 de abril.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">Agosto</div>
+                    <div class="event-content">
+                        <h3>Festa de São Cristóvão</h3>
+                        <p>Celebração no primeiro final de semana de agosto.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">Agosto</div>
+                    <div class="event-content">
+                        <h3>Festa de Nossa Senhora do Rosário</h3>
+                        <p>Tradicional festa religiosa no terceiro domingo de agosto.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">Sábados</div>
+                    <div class="event-content">
+                        <h3>Feira Livre</h3>
+                        <p>Na Praça dos Três Poderes, das 10h às 18h, com artesanato, culinária e shows locais.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">Anual</div>
+                    <div class="event-content">
+                        <h3>Temperos de Juatuba</h3>
+                        <p>Festival gastronômico que valoriza a culinária, artesanato e cultura local.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contato e Informações</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Prefeitura Municipal de Juatuba</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Praça dos Três Poderes, s/n - Centro<br>Juatuba/MG - CEP: 35675-000</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(31) 3535-8241</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>comunicacao@juatuba.mg.gov.br</p>
+                    </div>
+                </div>
+                <div class="contact-tourism">
+                    <h3>Divisão de Cultura e Turismo</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Funcionamento: 08:00 às 17:00</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(31) 3535-5524</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <p>www.juatuba.mg.gov.br</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-placeholder">
+                <i class="fas fa-map"></i>
+                <p>Localização: Região Metropolitana de Belo Horizonte</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Juatuba.mg</h3>
+                    <p>Portal oficial sobre a cidade de Juatuba, Minas Gerais.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="https://www.juatuba.mg.gov.br">Site Oficial</a></li>
+                        <li><a href="#">Turismo</a></li>
+                        <li><a href="#">Economia</a></li>
+                        <li><a href="#">Eventos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Praça dos Três Poderes, s/n<br>Centro - Juatuba/MG</p>
+                    <p>(31) 3535-8241</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Juatuba.mg - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
